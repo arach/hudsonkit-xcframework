@@ -13,7 +13,7 @@ Add one package dependency:
 ```swift
 .package(
     url: "https://github.com/arach/hudsonkit-xcframework.git",
-    exact: "1.2.0"
+    exact: "0.3.1"
 )
 ```
 

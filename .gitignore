@@ -1,0 +1,10 @@
+.DS_Store
+.build/
+Package.resolved
+
+# Release artifacts are uploaded to GitHub Releases, not committed.
+*.dSYM/
+*.xcarchive/
+*.xcframework/
+*.xcframework.zip
+checksums.txt

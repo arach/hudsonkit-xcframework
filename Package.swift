@@ -8,7 +8,7 @@ import PackageDescription
 //
 // Consumers should depend on exact release tags that contain binary targets.
 let package = Package(
-    name: "HudsonKitDeps",
+    name: "HudsonKitXCFramework",
     platforms: [.macOS(.v14)],
     products: [],
     targets: []

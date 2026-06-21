@@ -1,4 +1,4 @@
-# Releasing HudsonKit Deps
+# Releasing HudsonKit XCFramework
 
 Build artifacts from the private Hudson source checkout:
 
@@ -10,7 +10,7 @@ scripts/apple/build-xcframeworks.sh --version 1.2.0
 The script writes a generated binary package to:
 
 ```text
-dist/apple-binaries/1.2.0/
+dist/apple-xcframeworks/1.2.0/
 ```
 
 That directory contains:
@@ -27,9 +27,9 @@ Publish the release:
 ```bash
 VERSION=1.2.0
 HUDSON=/Users/art/dev/hudson
-DEPS=/Users/art/dev/hudsonkit-deps
+DEPS=/Users/art/dev/hudsonkit-xcframework
 
-cp "$HUDSON/dist/apple-binaries/$VERSION/Package.swift" "$DEPS/Package.swift"
+cp "$HUDSON/dist/apple-xcframeworks/$VERSION/Package.swift" "$DEPS/Package.swift"
 
 cd "$DEPS"
 git add Package.swift
@@ -39,9 +39,9 @@ git push origin main
 git push origin "$VERSION"
 
 gh release create "$VERSION" \
-  "$HUDSON/dist/apple-binaries/$VERSION/"*.xcframework.zip \
-  "$HUDSON/dist/apple-binaries/$VERSION/checksums.txt" \
-  --repo arach/hudsonkit-deps \
+  "$HUDSON/dist/apple-xcframeworks/$VERSION/"*.xcframework.zip \
+  "$HUDSON/dist/apple-xcframeworks/$VERSION/checksums.txt" \
+  --repo arach/hudsonkit-xcframework \
   --title "$VERSION" \
   --notes "HudsonKit binary artifacts for $VERSION"
 ```
@@ -49,5 +49,5 @@ gh release create "$VERSION" \
 The generated manifest URLs assume release assets live at:
 
 ```text
-https://github.com/arach/hudsonkit-deps/releases/download/<version>/
+https://github.com/arach/hudsonkit-xcframework/releases/download/<version>/
 ```

@@ -1,4 +1,4 @@
-# HudsonKit Deps
+# HudsonKit XCFramework
 
 Public SwiftPM binary package for HudsonKit Apple artifacts.
 
@@ -12,7 +12,7 @@ Add one package dependency:
 
 ```swift
 .package(
-    url: "https://github.com/arach/hudsonkit-deps.git",
+    url: "https://github.com/arach/hudsonkit-xcframework.git",
     exact: "1.2.0"
 )
 ```
@@ -20,8 +20,8 @@ Add one package dependency:
 Then depend on the products you need:
 
 ```swift
-.product(name: "HudsonUI", package: "hudsonkit-deps")
-.product(name: "HudsonShell", package: "hudsonkit-deps")
+.product(name: "HudsonUI", package: "hudsonkit-xcframework")
+.product(name: "HudsonShell", package: "hudsonkit-xcframework")
 ```
 
 ## Package Shape

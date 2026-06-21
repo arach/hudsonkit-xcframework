@@ -11,23 +11,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "HudsonLive",
-            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.1/HudsonLive-0.3.1.xcframework.zip",
-            checksum: "02f3693c3172f02524b3492880eace97c4c125cd552b52169fe206dd7c8aa88f"
+            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.2/HudsonLive-0.3.2.xcframework.zip",
+            checksum: "c26b4740b5ea07c71e6c33fd71c5add229a8f7d6354862fbc04a456ae517cc6c"
         ),
         .binaryTarget(
             name: "HudsonObservability",
-            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.1/HudsonObservability-0.3.1.xcframework.zip",
-            checksum: "0a0a557b4fa42334bd80ddfb4a3e45863e5ccdbc5f3b84068bb262d0ccf839e0"
+            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.2/HudsonObservability-0.3.2.xcframework.zip",
+            checksum: "d9a55cced570176f188c55094ef7510e45ca77a96aa99cc892e94cdba2935e14"
         ),
         .binaryTarget(
             name: "HudsonUI",
-            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.1/HudsonUI-0.3.1.xcframework.zip",
-            checksum: "c9e7267d52ba2f14093dd63222a4512c8f9680cadc213e69cb216879d0c0f754"
+            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.2/HudsonUI-0.3.2.xcframework.zip",
+            checksum: "a36a5fcd7fb00b99fa2a9d349968f9b164c5b90ca72f95ba8e102e4daf13627d"
         ),
         .binaryTarget(
             name: "HudsonShell",
-            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.1/HudsonShell-0.3.1.xcframework.zip",
-            checksum: "920c6fc36a1f2b4aa72354969055b12787e0e9d0bc5333882705b60c6a38073f"
+            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.2/HudsonShell-0.3.2.xcframework.zip",
+            checksum: "c3e5c874799a075d5784be04c9bf99b63d5902487063e2506e098e66c627dcc5"
         ),
     ]
 )

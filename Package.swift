@@ -11,23 +11,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "HudsonLive",
-            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.2/HudsonLive-0.3.2.xcframework.zip",
-            checksum: "c26b4740b5ea07c71e6c33fd71c5add229a8f7d6354862fbc04a456ae517cc6c"
+            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.3/HudsonLive-0.3.3.xcframework.zip",
+            checksum: "b44952da539a92c4ab9ec5d7f3543250926327ce3a25bcda1043f763959e4774"
         ),
         .binaryTarget(
             name: "HudsonObservability",
-            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.2/HudsonObservability-0.3.2.xcframework.zip",
-            checksum: "d9a55cced570176f188c55094ef7510e45ca77a96aa99cc892e94cdba2935e14"
+            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.3/HudsonObservability-0.3.3.xcframework.zip",
+            checksum: "b6161da5eb730c69d18ea3a09778ecd8daa5fcd585a3b599e7f94dcd0d5683d2"
         ),
         .binaryTarget(
             name: "HudsonUI",
-            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.2/HudsonUI-0.3.2.xcframework.zip",
-            checksum: "a36a5fcd7fb00b99fa2a9d349968f9b164c5b90ca72f95ba8e102e4daf13627d"
+            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.3/HudsonUI-0.3.3.xcframework.zip",
+            checksum: "d9f9d9b7a4349db3e3cdc20100db06b4bbb7ebc7048ef60f11b56f63ec0e0694"
         ),
         .binaryTarget(
             name: "HudsonShell",
-            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.2/HudsonShell-0.3.2.xcframework.zip",
-            checksum: "c3e5c874799a075d5784be04c9bf99b63d5902487063e2506e098e66c627dcc5"
+            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.3/HudsonShell-0.3.3.xcframework.zip",
+            checksum: "f9c558693722a05d3f49675ffd753e0175923775ac114b85efd3efc36a7df61c"
         ),
     ]
 )

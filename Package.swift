@@ -11,23 +11,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "HudsonLive",
-            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.3/HudsonLive-0.3.3.xcframework.zip",
-            checksum: "b44952da539a92c4ab9ec5d7f3543250926327ce3a25bcda1043f763959e4774"
+            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.4/HudsonLive-0.3.4.xcframework.zip",
+            checksum: "754c0ce431cae43251ce25803c6417df33b89c5d4206717af1a6bf7961a62c45"
         ),
         .binaryTarget(
             name: "HudsonObservability",
-            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.3/HudsonObservability-0.3.3.xcframework.zip",
-            checksum: "b6161da5eb730c69d18ea3a09778ecd8daa5fcd585a3b599e7f94dcd0d5683d2"
+            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.4/HudsonObservability-0.3.4.xcframework.zip",
+            checksum: "3454b446205bd1993f140c1f8a96e0769bbcceac9d8f7778a61bb1178b7c33c0"
         ),
         .binaryTarget(
             name: "HudsonUI",
-            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.3/HudsonUI-0.3.3.xcframework.zip",
-            checksum: "d9f9d9b7a4349db3e3cdc20100db06b4bbb7ebc7048ef60f11b56f63ec0e0694"
+            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.4/HudsonUI-0.3.4.xcframework.zip",
+            checksum: "c9401155aba2fda6b708b550fde7560ea7648965488e29cc16ff6cb2d04c2d2d"
         ),
         .binaryTarget(
             name: "HudsonShell",
-            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.3/HudsonShell-0.3.3.xcframework.zip",
-            checksum: "f9c558693722a05d3f49675ffd753e0175923775ac114b85efd3efc36a7df61c"
+            url: "https://github.com/arach/hudsonkit-xcframework/releases/download/0.3.4/HudsonShell-0.3.4.xcframework.zip",
+            checksum: "8dd6a50e99e8875fb28425c97c086c13607e0aa1036bf56deb43d96f509e918c"
         ),
     ]
 )
